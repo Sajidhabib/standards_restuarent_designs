@@ -1,0 +1,395 @@
+.container{
+        width: 1170px;
+        margin: 0px auto;
+        /* border: 1px solid lightgrey; */
+}
+.upper-header{
+    border-bottom: 1px solid lightgrey;
+}
+.first_content_container{
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left_side{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.right_side{
+    width: 39%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.number , .location , .order{
+    width: 35%;
+    height: 50px;
+    border-left: 1px solid lightgray;
+    display: flex;
+}
+/*  */
+.account , .country , .help{
+    width: auto;
+    height: 50px;
+    border-right: 1px solid lightgray;
+    display: flex;
+}
+.number_cont{
+    width: 95%;
+    height: 30px;
+    margin-top: 10px ;
+    display: flex;
+    margin-left: 10px;
+
+}
+.account{
+    /* width: 95%; */
+    height: 30px;
+    margin-top: 10px ;
+    display: flex;
+    margin-left: 10px;
+
+}
+.fas{
+    margin-top: 8px ;
+    /* margin-left:-10px ; */
+    margin-right: 5px;
+    justify-content: space-between;
+}
+p{
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    margin-right: 5px;
+    font-weight: bold;
+}
+select{
+    width: 80%;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin: auto;
+    margin-right: 30px;
+}
+.second_content_container{
+    width: 75%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between ;
+    margin: auto;
+    margin-top: 10px;
+}
+.logo_cont , .shopicons_cont{
+    width: 20%;
+    height: 80px;
+    /* background-color: orange; */
+}
+.search_cont{
+    width: 60%;
+    height: 80px;
+}
+.search_content_cont{
+    width: 100%;
+    height: 60px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    border-radius: 50px;
+    display: flex;
+}
+.searchbar{
+    width: 45%;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 5px;
+    border-right: 1px solid lightgray;
+    /* background-color: black; */
+    /* background-color: palegoldenrod;s */
+}
+.searchCate{
+    width: 25%;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+    
+}
+.searchBtn{
+    width: 25%;
+    height: 60px;
+    border-right: 1px solid  rgb(255, 102, 0);
+    border-radius: 25px;
+    background-color:  rgb(255, 102, 0);
+    margin-left: 5px;
+}
+input{
+    width: 95%;
+    height: 40px ;
+    margin-left: 5px;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+button{
+    width: 90%;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: -2px;
+}
+.selectCat{
+    width: 90% ;
+    height: 60px;
+    margin-top: -15px;
+    margin-left: 5px;
+
+}
+.icons-shop {
+    width: 111%;
+}
+
+.logo-image{
+
+            margin-top: -20px;
+}
+
+.change, .heart , .cart{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.menu-bgcolor{
+
+                background-color: orange;
+                margin-top: 20px;
+
+}
+
+.black-corner{
+
+    width: 15%;
+    background: #000;
+    height: 70px;
+    margin-left: 190px;
+    /* margin-bottom: 120px; */
+}
+
+.nav-bar-list{
+        width: 50%;
+        /* background:green; */
+        height: 70px;
+}
+.third-container-content{
+display: flex;
+}
+
+.free-shiping{
+        width: 20%;
+        display: flex;
+    
+        height: 70px;
+}
+.corner-content{
+
+    color: white;
+    padding: 15px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.corner-content a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu-content{
+display: flex;
+margin-bottom: 20px;
+
+}
+
+.menu-content li{
+    list-style-type: none;
+    padding: 15px;
+    margin-top: -5px;
+}
+.navbar-list{
+margin-bottom: 30px;
+}
+.menu-content li a {
+
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+}
+
+.free-shiping{
+color: white;
+}
+
+.free-shoping-content{
+        padding: 17px;
+        font-weight: bold;
+}
+.banner{
+    background-image: url("../image/banner.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+.banner-text{
+color: white;
+padding: 100px;
+}
+
+.heading-text{
+        font-size: 50px;
+}
+span {
+            color:rgb(255, 102, 0);
+}
+.banner-text h4{
+font-size: 20px;
+}
+
+ .shop-now{
+
+width: 130px;
+height: 50px;
+}
+
+
+.back-grey-card{
+    background: lightgrey;
+    padding: 100px;
+}
+.card-three {
+    display: flex;
+}
+.card-box {
+    background-color: #fff;
+    padding: 8px;
+    display: inline-block;
+    width: 350px;
+    margin: 10px;
+    height: 196px;
+}
+.card-one {
+    width: 350px;
+    /* border: 1px solid black; */
+    /* padding: 30px; */
+}
+.card-one-btn{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    
+
+}
+.card-text{
+         width: 200px;
+        display: inline-block;
+        /* padding: 5px; */
+}
+.card-picture {
+    display: inline-block;
+    /* background-color: pink; */
+    margin-top: -70px;
+    width: 200px;
+    
+    margin-left: 78px;
+
+}
+.list-products{
+    margin: 10px;
+                    /* background: #000; */
+                    height: 100px;
+                    width: 80%;
+                    margin-left: 180px;
+    }
+    .menu-links{
+                    display: flex;
+                    color: black;
+    padding: 20px;
+    }
+    
+    .menu-links li {
+                        padding: 15px;
+                        text-decoration: none;
+                        list-style-type: none;
+    border-bottom: 1px solid lightgray;
+    }
+    
+    .menu-links a {
+                    text-decoration: none;
+                    color: rgb(68, 67, 67);
+                    font-weight: bold;
+    }
+
+  .small-cards{
+display: inline-block;
+    background-color: blue;
+    width: 50%;
+    height: 500px;
+  }
+
+  .cards {
+    background-color: #fff;
+    width: 33%;
+    padding: 10px;
+    height: auto;
+    margin-left: 20px;
+    /* box-sizing: border-box; */
+    margin-top: 20px;
+    border: 1px solid lightgrey;
+    display: inline-table;
+    float: left;
+}
+
+ .price{
+
+    /* display: inline-block; */
+ }
+ .product-images img{
+    width: 100%;
+    margin-right: 20px;
+ }
+ .price h4 span {
+    padding: 30px;
+    /* border: 1px solid lightgrey; */
+    /* border-radius: 30%; */
+    height: -12px;
+    color: black;
+}
+
+.big-card {
+    background-color: red;
+    width: 40%;
+    padding: 10px;
+    height: 400px;
+    /* float: right; */
+    margin-right: 95px;
+}
+.sales-card {
+    background-color: green;
+    padding: 30px;
+    margin-top: 11px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: green;
+    }
+  }
+
+
